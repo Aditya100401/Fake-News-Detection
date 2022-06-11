@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Open Lab Project</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>Fake News Detector</h2>
+                        <!--h3>Fake News</h3-->
+                        <p>Presented by:- <br>
+                            Aditya Narasimhan Sampath - CB.EN.U4ELC19004<br>
+                            Pradhumna Guruprasad - CB.EN.U4ELC19036<br>
+                            Salai Sanjay - CB.EN.U4ELC19046<br>
+                            Shreyas Nagesh - CB.EN.U4ELC19052<br>
+                        </p>
+                        <label for="embeddings">Choose Embeddings:</label>
+                        <select id="embeddings">
+                        <option value="MuRIL">MuRIL</option>
+                        <option value="IndicBERT">IndicBERT</option>
+                        </select>
+
+                        <label for="model">Choose Model:</label>
+                        <select id="model">
+                        <option value="CNN">CNN</option>
+                        <option value="SVM">SVM</option>
+                        <option value="Logistic">Logistic Regression</option>
+                        </select>
+                    </div>
+                    <div class="get-start-area">
+                        <form class="form-inline">
+                            <input type="text" id="data" class="form-control email" placeholder="Enter News:">
+                            <input type="button" class="submit" value="Check" onclick="getFakeorTrue()">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
