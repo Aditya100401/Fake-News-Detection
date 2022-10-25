@@ -1,2 +1,2 @@
 # Fake News Detection
-## Languages: English and HIndi
+## Languages: English and Hindi
