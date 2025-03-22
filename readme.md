@@ -10,7 +10,10 @@ To showcase the functionality of the model, a standalone Graphical User Interfac
 
 ## Demo 
 Here are is a demo of the application
-![]()
+![](https://github.com/Aditya100401/Fake-News-Detection/blob/master/Fig-1.gif?raw=true)
+![](https://github.com/Aditya100401/Fake-News-Detection/blob/master/Fig-2.gif?raw=true)
+![](https://github.com/Aditya100401/Fake-News-Detection/blob/master/Fig-3.gif?raw=true)
+![](https://github.com/Aditya100401/Fake-News-Detection/blob/master/Fig-4.gif?raw=true)
 
 ## Link to Paper
 
