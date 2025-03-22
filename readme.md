@@ -8,6 +8,10 @@ Through experimentation, the combination of MuRIL embeddings and SVM classifier 
 
 To showcase the functionality of the model, a standalone Graphical User Interface (GUI) running on a local host has been developed, allowing users to interact with the system conveniently.
 
+## Demo 
+Here are is a demo of the application
+![]()
+
 ## Link to Paper
 
 Here is a link to our paper: https://ieeexplore.ieee.org/document/10434587
